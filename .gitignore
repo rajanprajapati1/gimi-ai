@@ -37,7 +37,8 @@ next-env.d.ts
 
 # cursor
 .cursor/rules/private
-
+.env
+env
 backup.z
 CLAUDE.MD
 CLAUDE
