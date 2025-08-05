@@ -4,21 +4,25 @@ import { Button } from '@/components/ui/button'
 
 const exampleMessages = [
   {
-    heading: 'What is DeepSeek R1?',
-    message: 'What is DeepSeek R1?'
+    heading: 'Build a Chrome extension with ChatGPT',
+    message: 'How can I build a Chrome extension using ChatGPT and JavaScript?'
+  }, {
+    heading: 'Can AI replace programmers?',
+    message: 'Can AI replace programmers?'
   },
   {
-    heading: 'Why is Nvidia growing rapidly?',
-    message: 'Why is Nvidia growing rapidly?'
+    heading: 'Top 5 startup trends in 2025',
+    message: 'What are the top 5 startup trends to watch in 2025?'
   },
   {
-    heading: 'Tesla vs Rivian',
-    message: 'Tesla vs Rivian'
+    heading: 'Quantum computing vs classical computing',
+    message: 'Compare quantum computing and classical computing in layman’s terms'
   },
   {
-    heading: 'Summary: https://arxiv.org/pdf/2501.05707',
-    message: 'Summary: https://arxiv.org/pdf/2501.05707'
+    heading: 'find Who is Rajan Prajapati?',
+    message: 'Summarize this GitHub profile (https://github.com/rajanprajapati1) ?'
   }
+
 ]
 export function EmptyScreen({
   submitMessage,
