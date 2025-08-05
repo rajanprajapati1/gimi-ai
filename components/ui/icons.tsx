@@ -1,6 +1,7 @@
 'use client'
 
 import { cn } from '@/lib/utils'
+import Image, { ImageProps } from 'next/image'
 import { useEffect, useRef, useState } from 'react'
 
 function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
@@ -20,14 +21,16 @@ function IconLogo({ className, ...props }: React.ComponentProps<'svg'>) {
   )
 }
 
-function ImageLogo({ className, ...props }: React.ComponentProps<'img'>) {
+function ImageLogo({ className, ...props }: Omit<ImageProps, 'src' | 'alt'>) {
   return (
-    <>
-      <img
-        className={cn('h-4 w-4', className)}
-        {...props}
-        src="./images/gimi.gif" alt="loader" />
-    </>
+    <Image
+      className={cn('h-4 w-4', className)}
+      width={24}
+      height={24}
+      src="/images/gimi.gif"
+      alt="loader"
+      {...props}
+    />
   )
 }
 
