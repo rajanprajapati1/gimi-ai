@@ -20,7 +20,7 @@ const exampleMessages = [
   },
   {
     heading: 'find Who is Rajan Prajapati?',
-    message: 'Summarize this GitHub profile (https://github.com/rajanprajapati1) ?'
+    message: 'Summarize this GitHub profile : https://github.com/rajanprajapati1 ?'
   }
 
 ]
